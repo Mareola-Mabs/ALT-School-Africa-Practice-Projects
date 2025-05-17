@@ -1,0 +1,105 @@
+body                                    {font-family: sans-serif;
+                                        margin: 0;
+                                        padding: 0;}
+
+body, *, html                           {box-sizing: border-box;
+                                        margin: 0;
+                                        padding: 0;}
+
+
+header                                  {padding: 0 15vw;
+                                        font-size: 0.8rem;
+                                        height: 50vh;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        gap: 15px;
+                                        width: 65%;}
+
+header h2                               {margin-bottom: 20px;}
+
+
+header span                             {color: green;}
+
+
+main                                    {background: grey;
+                                        padding: 40px 15vw;
+                                        height: 50vh;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        border-top: 4px solid rgb(201, 195, 195);}
+
+
+.main__item                             {background: #fff;
+                                        padding: 5px 15px;
+                                        position: relative;}
+
+.main__item-head                        {background: rgb(241, 186, 5);
+                                        position: absolute;
+                                        left: -5px;
+                                        padding: 10px 20px;
+                                        font-weight: bold;
+                                        font-size: 0.9rem;
+                                        border-bottom: 4px solid rgb(201, 172, 6);}
+
+.main__item-body                        {margin-top: 50px;
+                                        font-size: 0.75rem;}
+
+
+.main__item-body   p                    {margin-bottom: 15px;
+                                        line-height: 1.3rem;}
+
+
+        
+/* Responsiveness */
+/* Tablet */
+@media (max-width: 800px)               {
+
+    header                                  {padding: 8vh 15px;
+                                            font-size: 0.8rem;
+                                            height: auto;
+                                            width: 50%;}
+
+
+    
+    main                                   {background: grey;
+                                            padding: 40px 0;
+                                            height: auto;}
+
+
+    .main__item                             {padding-bottom: 0;}
+
+
+
+
+                                        }
+
+
+
+/* Mobile */
+@media (max-width: 540px)               {
+
+    header                                  {padding: 8vh 15px;
+                                            font-size: 0.8rem;
+                                            height: auto;
+                                            width: 100%;
+                                            text-align: justify;}
+
+
+    
+    main                                   {background: grey;
+                                            padding: 40px 0;
+                                            height: auto;}
+
+
+    .main__item                             {padding-bottom: 0;
+                                            text-align: justify;}
+
+
+    .main__item-head                        {width: 98%;}
+
+
+
+
+                                        }
