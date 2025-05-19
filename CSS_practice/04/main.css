@@ -1,0 +1,13 @@
+/* Resets */
+body                                    {font-family: sans-serif;
+                                        margin: 0;
+                                        padding: 0;
+                                        height: 100vh;
+                                        display: flex;
+                                        align-items: center;
+                                        background: #f7fdfd;}
+
+
+body, *, html                           {box-sizing: border-box;
+                                        margin: 0;
+                                        padding: 0;}
